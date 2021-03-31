@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#btn1").click(function(){
+    $("#p1").append(" <b>Appended text</b>.");
+  });
+
+  $("#btn2").click(function(){
+    $("ol").append("<li>Appended item</li>");
+  });
+});
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link rel="stylesheet" href="experiments.css">
+<style>
+  div.ex2 {
+      margin: 10px;
+      border: 1px solid black;
+      background-color: rgb(126, 187, 129);
+      outline: 5px dashed blue;
+      outline-offset: 5px;
+      resize: vertical; overflow: auto;
+      margin-top: 30px;
+    } 
+   
+   </style>
+</head>
+<html>
+  <body>
+<header>
+
+
+<p> ToString Method</p>
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+  function myFunction() {
+    var str = "Be safe!";
+    var res = str.toString();
+    document.getElementById("demo").innerHTML = res;
+  }
+  </script>
+
+<p id="p1">This is a paragraph.</p>
+
+<ol>
+  <li>List item 1</li>
+  <li>List item 2</li>
+</ol>
+
+<button id="btn1">Append text</button>
+<button id="btn2">Append list items</button>
+
+<div class="ex2"><p> Wear mask,wash hand.....</p>
+
+
+  <div>
+    <p>Click the button to do a case-insensitive search for "Coronavirus" in a string.</p>
+
+<button onclick="myFunction2()">Click</button>
+
+<p id="cov"></p>
+<script>
+function myFunction2() {
+  var str = "Coronavirus is a 2019 virus.";
+  var patt1 = /Coronavirus/i;
+  var result = str.match(patt1);
+  document.getElementById("cov").innerHTML = result;
+}
+</script>
+
+  </div>
+<script>
+    function myFunction() {
+      var str = "Be safe!";
+      var res = str.toString();
+      document.getElementById("demo").innerHTML = res;
+    }
+    </script>
+
+
+
+  </header>
+  
+    <p>Click the button to do a global search for "Covid" in a string.</p>
+
+    <button onclick="myFunction1()">Try it</button>
+    
+    <p id="demo11"></p>
+    
+    <script>
+    function myFunction1() {
+      var str = "Covid-19.";
+      var patt1 = /Covid/g;
+      var result = str.match(patt1);
+      document.getElementById("demo11").innerHTML = result;
+    }
+    </script>
+
+      <br><br>
+   
+
+    
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#b5").click(function(){
+    $("#div1").remove();
+  });
+});
+</script>
+
+<p>Click the button to display the exponential notation of a specified number.</p>
+
+<button onclick="myFunction3()">Try it</button>
+
+<p id="demo12"></p>
+
+<script>
+function myFunction3() {
+  var num = 5.56789;
+  var n = num.toExponential();
+  document.getElementById("demo12").innerHTML = n;
+}
+</script>
+
+
+
+
+<div id="div1" style="height:100px;width:300px;border:1px solid black;background-color:yellow;">
+
+This is some text in the div.
+<p>This is a paragraph in the div.</p>
+<p>This is another paragraph in the div.</p>
+
+</div>
+<br>
+
+<button id="b5">Remove div element</button>
+
+  </body>
+
+
+</html>
