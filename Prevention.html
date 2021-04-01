@@ -6,21 +6,7 @@
     <title>Prevention</title>
     <link rel="stylesheet" href="Prevention_Styles.css">
 
-    <script>
-        function allowDrop(ev) {
-          ev.preventDefault();
-        }
-        
-        function drag(ev) {
-          ev.dataTransfer.setData("text", ev.target.id);
-        }
-        
-        function drop(ev) {
-          ev.preventDefault();
-          var data = ev.dataTransfer.getData("text");
-          ev.target.appendChild(document.getElementById(data));
-        }
-    </script>
+    
 
 <script>
     function clickCounter() {
@@ -37,25 +23,9 @@
     }
     </script>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  $("#p1").mouseenter(function(){
-    alert("You entered p1!");
-  });
-});
-</script>  
+ 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  $("button").click(function(){
-    $("#div1").fadeToggle();
-    $("#div2").fadeToggle("slow");
-    $("#div3").fadeToggle(3000);
-  });
-});
-</script>
+
 
 </head>
 <body>
@@ -75,14 +45,7 @@ $(document).ready(function(){
             </ul>
         </div>
 
-        <div style="display: inline-block; display: inline-flex; margin-left: 20px;">
-            <button style="width: 300px; margin-top: 1px;">Click to fade in/out boxes</button><br>
-            <div id="div1" style="width:30px;height:30px;background-color:red;"></div>
-            <br>
-            <div id="div2" style="width:30px;height:30px;background-color:green;"></div>
-            <br>
-            <div id="div3" style="width:30px;height:30px;background-color:blue;"></div>
-        </div>
+        
        
         <div class="Info_Covid_div">
             <img src="Imazhet/maska.svg" style="width: 130px; height: 130px; ">
@@ -96,11 +59,7 @@ $(document).ready(function(){
                 </button>
             </a></li>
         </div>
-        <div class="virusi1">
-            <img src="Imazhet/virus1.jpg" style="width: 60px; height: 60px;"
-            draggable="true" ondragstart="drag(event)" id="drag1">
-        </div>
-        <div class="virusi2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        
     </header>
     <div class="bg-image img1" style="height: 650px; background-image:linear-gradient(white, #B3B6B7)">
        <li>
