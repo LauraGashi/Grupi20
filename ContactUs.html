@@ -53,10 +53,9 @@ $(document).ready(function(){
             <form action="">
             <label for="fname" style="font-size: 25px;">Full name</label>
             <input type="text" id="fname" name="fname" style="width: 300px; height: 45px;"><br><br>
-           
             <label for="Message" style="font-size: 25px;">Your Message</label>
             <input type="text" id="Message" name="Message" style="width: 300px; height: 45px;"><br><br>
-           
+            
             </form>
             <script>  
                 function validateemail()  
@@ -74,7 +73,13 @@ $(document).ready(function(){
                 <form name="myform"  method="post" action="#" onsubmit="return validateemail();">  
                   <label for="Email" style="font-size: 25px;">Email</label>
                   <input type="text" name="email" style="width: 300px; height: 45px; font-size: 25px; " autocomplete="off"><br/> <br> <br> 
-                
+                  <label for="gender" style="font-size: 25px;">Gender:</label>
+                  <label for="male" style="font-size: 25px;">Male</label>
+                  <input type="radio" name="gender" id="male" value="male">
+                  <label for="female" style="font-size: 25px;">Female</label>
+                  <input type="radio" name="gender" id="female" value="female">
+                  <label for="other" style="font-size: 25px;">Other</label>
+                  <input type="radio" name="gender" id="other" value="other"><br><br>
                 <input type="submit" value="Contact" style=" width: 150px; height: 30px; font-size: 18px;" >  
                 </form>  
         </div>
