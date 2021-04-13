@@ -50,38 +50,27 @@ $(document).ready(function(){
         </div>
         <div class="name">
             <h1>Contact Us</h1></br>
-            <form action="">
-            <label for="fname" style="font-size: 25px;">Full name</label>
-            <input type="text" id="fname" name="fname" style="width: 300px; height: 45px;"><br><br>
-            <label for="Message" style="font-size: 25px;">Your Message</label>
-            <input type="text" id="Message" name="Message" style="width: 300px; height: 45px;"><br><br>
+           
             
-            </form>
-            <script>  
-                function validateemail()  
-                {  
-                var x=document.myform.email.value;  
-                var atposition=x.indexOf("@");  
-                var dotposition=x.lastIndexOf(".");  
-                if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length){  
-                  alert("Please enter a valid e-mail address \n atpostion:"+atposition+"\n dotposition:"+dotposition);  
-                  return false;  
-                  }  
-                }  
-                </script>  
                 <body>  
-                <form name="myform"  method="post" action="#" onsubmit="return validateemail();">  
-                  <label for="Email" style="font-size: 25px;">Email</label>
-                  <input type="text" name="email" style="width: 300px; height: 45px; font-size: 25px; " autocomplete="off"><br/> <br> <br> 
-                  <label for="gender" style="font-size: 25px;">Gender:</label>
-                  <label for="male" style="font-size: 25px;">Male</label>
-                  <input type="radio" name="gender" id="male" value="male">
-                  <label for="female" style="font-size: 25px;">Female</label>
-                  <input type="radio" name="gender" id="female" value="female">
-                  <label for="other" style="font-size: 25px;">Other</label>
-                  <input type="radio" name="gender" id="other" value="other"><br><br>
-                <input type="submit" value="Contact" style=" width: 150px; height: 30px; font-size: 18px;" >  
-                </form>  
+                  <form action="script.php" method="post">
+                  Name: <input type="text" name="name" value="<?php echo $name;?>"><br><br>
+
+                  E-mail: <input type="text" name="email" value="<?php echo $email;?>"><br><br>
+                  
+                  Comment: <textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea><br><br>
+                  
+                  Gender:
+                  <input type="radio" name="gender"
+                  <?php if (isset($gender) && $gender=="female") echo "checked";?>
+                  value="female">Female
+                  <input type="radio" name="gender"
+                  <?php if (isset($gender) && $gender=="male") echo "checked";?>
+                  value="male">Male
+                  <input type="radio" name="gender"
+                  <?php if (isset($gender) && $gender=="other") echo "checked";?>
+                  value="other">Other
+                </form>
         </div>
 
         <div class="text" style="margin-left: 30px;">
