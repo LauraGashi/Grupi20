@@ -54,11 +54,11 @@ $(document).ready(function(){
             
                 <body>  
                   <form action="script.php" method="post">
-                  Name: <input type="text" name="name" value="<?php echo $name;?>"><br><br>
+                  Name: <input type="text" name="name" value="<?php echo $name;?>">
 
-                  E-mail: <input type="text" name="email" value="<?php echo $email;?>"><br><br>
+                  E-mail: <input type="text" name="email" value="<?php echo $email;?>">
                   
-                  Comment: <textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea><br><br>
+                  Comment: <textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea>
                   
                   Gender:
                   <input type="radio" name="gender"
