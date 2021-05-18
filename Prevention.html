@@ -52,6 +52,9 @@
                 <button>
                         <img src="Imazhet/bars.jpg" style="width: 24px; height: 24px;">
                     Click
+                    <?php
+                        echo strlen("Click");
+                    ?>
                 </button>
             </a></li>
         </div>
@@ -85,7 +88,10 @@
     </div>
     <div class="bgg-image" style="height: 700px; background-color: #B3B6B7;">
         <img src="Imazhet/steps.png" align="right" style="width:400px";>
-        <h1>Take steps to protect others</h1></br></br>
+        <?php
+            $str = "steps";
+            printf("Take %s to protect others",$str);
+        ?>
         <p id="p1" style="font-size: 25px; margin-left: 30px;">
             Stay home if you’re sick – Stay home if you are sick, except to get medical care.
         </p></br>

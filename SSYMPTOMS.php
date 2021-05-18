@@ -37,8 +37,11 @@
     </div>
 
     <div class="class-1">
-
-    <h1>Symptoms of Covid-19</h1>
+    
+    <?php
+        $arr=array('Symptoms', 'of', 'Covid-19');
+        echo implode(" ",$arr);
+    ?>
     <hr>
     <br>
     <p> <strong>COVID-19 affects different people in different ways.
@@ -53,9 +56,16 @@
     <div class="L-21">
 
          
-        <p><strong>Symptoms are separated in two groups:</strong></p>   
+    <?php
+        $str = "Symptoms are separated in two ,three groups:";
+        echo trim($str,",three");
+    ?>
 <ul>
-    <li>Common Symptoms</li>
+    <li>
+    <?php
+        echo substr("CCCommon Symptoms",2);
+    ?>
+    </li>
     <li>Emergency Symptoms</li>
 </ul>   
 

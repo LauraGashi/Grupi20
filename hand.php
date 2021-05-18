@@ -104,6 +104,9 @@
             <li>
                 <img src="Imazhet/hand-a.png" style="width: 200px; height: 200px; border-radius: 50%;">
                 <h2>Soap on Hands</h2>
+                <?php
+                    echo str_replace("Hands","hands.","Soap on Hands");
+                ?>
             </li>
             <li>
                 <img src="Imazhet/hand-b.png" style="width: 200px; height: 200px; border-radius: 50%;">
