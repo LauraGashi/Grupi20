@@ -130,11 +130,7 @@
         <div class="container">
             <?php
                 $str="COVID-19 Tips and Tricks";
-                $array=explode(" ",$str);
-
-                echo "<pre>";
-                print_r($array);
-                echo "</pre>";
+                print_r (explode(" ",$str));
            
             ?>
         
