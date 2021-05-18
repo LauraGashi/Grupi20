@@ -1,0 +1,97 @@
+<!DOCTYPE hmtl>
+<hmtl lang ="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-widith,
+initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content ="ie=edge">
+<link rel="stylesheet" href="geo.css">
+
+<title>My Google Map</title>
+<style>
+  #map{
+    height:400px;
+    width:100%;
+  }
+  a {text-decoration: none; color: rgb(58, 1, 1);} 
+</style>
+</head>
+<body>
+  <h1>My google map</h1>
+<div id="map"></div>
+  <script>
+    function initMap(){
+    var  options={
+      zoom:8,
+      center:{lat:42.6026,lng:20.9030}
+      
+
+    }
+    var map= new google.maps.Map(document.getElementById('map'),options);
+//NEW MARKER 
+
+var marker= new google.maps.Marker({
+  position:{lat:42.4635,lng:21.4694},
+  map: map
+});
+
+
+
+    }
+  </script>
+
+<script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1cWkOcJeHWt8wfuTEuCUIVH0TmYmwlyQ&callback=initMap&libraries=&v=weekly"
+     
+      defer
+    ></script>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1cWkOcJeHWt8wfuTEuCUIVH0TmYmwlyQ&callback=initMap&libraries=&v=weekly"
+     
+      defer
+    ></script>
+
+
+    <p>Click the button to display the largest possible number in JavaScript.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = Number.MAX_VALUE;
+}
+
+
+</script>
+<br><br>
+<head>
+  <title> Current Date and Time.</title>
+  <script type="text/javascript">
+    function getCurrentDate(){
+      var curDate=new Date();
+      document.getElementById("showDate").innerHTML = curDate.toString();
+    }
+
+  </script>
+
+       
+</head>
+<body onLoad='getCurrentDate()' style="text-align: center">
+  <h1>Get current date.</h1>
+  <!--Here date and time will display-->
+  <h2 id="showDate"></h2>
+
+</body>
+
+   
+
+<hr>
+ 
+         
+</body>
+</html>
