@@ -129,9 +129,8 @@
 
         <div class="container">
             <?php
-                $str="COVID-19 Tips and Tricks";
-                print_r (explode(" ",$str));
-           
+                $str="COVID-19 Tips and Tricks.";
+                print_r (explode(".",$str));         
             ?>
         
         <div class="row">
