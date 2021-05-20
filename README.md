@@ -10,8 +10,7 @@ Asistent: Dardan Shabani dhe Vlera Alimehaj
 
 Tema: About Corona (vazhdim i projektit semestral nga lenda Interneti)
 
-
-Gjuha programuese: PHP
+Gjuha programuese: CSS, HTML, PHP, JavaScript
 
 Punuan: Laura Gashi, Liridona Baliu, Nazife Beqiri dhe Rrezarta Sahiti.
 
