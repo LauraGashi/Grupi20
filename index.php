@@ -53,6 +53,8 @@ document.getElementById("demo").innerHTML =
            </div>
 
            <script src="main.js"></script>
+
+           <a href="Untitled-3.html">Click to register</a>
        </header>
        <footer class="footer">
         <div class="footer-content">
