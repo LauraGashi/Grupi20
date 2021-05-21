@@ -1,5 +1,5 @@
 <?php
-include "config.php";
+include "Untitled1.php";
 
 // Check user login or not
 if(!isset($_SESSION['uname'])){
