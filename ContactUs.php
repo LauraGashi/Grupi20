@@ -53,25 +53,17 @@ $(document).ready(function(){
            
             
                 <body>  
-                  <form action="script.php" method="post">
-                  Name: <input type="text" name="name" value="<?php echo $name;?>"></br></br>
-
-                  E-mail: <input type="text" name="email" value="<?php echo $email;?>"></br></br>
-                  
-                  Comment: <textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea></br></br>
-                  
-                  Gender:
-                  <input type="radio" name="gender"
-                  <?php if (isset($gender) && $gender=="female") echo "checked";?>
-                  value="female">Female
-                  <input type="radio" name="gender"
-                  <?php if (isset($gender) && $gender=="male") echo "checked";?>
-                  value="male">Male
-                  <input type="radio" name="gender"
-                  <?php if (isset($gender) && $gender=="other") echo "checked";?>
-                  value="other">Other<br>
-                  <input type="submit" name="submit" value="Submit">  
+                <form action="welcome.php" method="post">
+                Name: <input type="text" name="name"><br>
+                E-mail: <input type="text" name="email"><br>
+                Comment: <input typr="text" name="comment"><br>
+                <input type="submit">
                 </form>
+
+                Welcome <?php echo $_POST["name"]; ?><br>
+                Your email address is: <?php echo $_POST["email"]; ?>
+                Your comment is: <?php echo $_POST["comment"]; ?>
+
         </div>
 
         <div class="text" style="margin-left: 30px;">
