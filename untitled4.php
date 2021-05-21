@@ -1,5 +1,5 @@
 <?php
-include "Untitled-2.php";
+include "Untitled1.php";
 
 if(isset($_POST['but_submit'])){
 
