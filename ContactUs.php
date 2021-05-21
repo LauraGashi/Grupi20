@@ -52,7 +52,6 @@ $(document).ready(function(){
             <h1>Contact Us</h1></br>
            
             
-                <body>  
                 <form action="welcome.php" method="post">
                 Name: <input type="text" name="name"><br>
                 E-mail: <input type="text" name="email"><br>
