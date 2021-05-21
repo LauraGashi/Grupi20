@@ -7,21 +7,22 @@
     <title>Form</title>
   </head>
   <body>
+    <form action="insert.php">
     <div class="container">
       <h1>Registrer</h1>
       <form>
         <div class="form-control">
-          <input type="text" required>
+          <input type="text" name="FirstName" required>
           <!--qekjo required e qet PLEASE FILL OUT THIS FIELD-->
           <label id="name">First Name</label>
 
           <div class="form-control">
-            <input type="text" required>
+            <input type="text" name="SecondName" required>
             <label>Last Name</label>
 
 
         <div class="form-control">
-          <input type="email" required>
+          <input type="email"  name="Email" required>
           <label id="email">Email</label>
           <!-- <label>
             <span style="transition-delay: 0ms">E</span>
@@ -33,15 +34,16 @@
         </div>
 
         <div class="form-control">
-          <input type="email" required>
+          <input type="email" name="ConfirmEmail" required>
           <label>Confirm Email</label>
 
         <div class="form-control">
-          <input type="password" required>
+          <input type="password"  name="Password" required>
           <label>Password</label>
         </div>
 
         <button class="btn">Register</button>
+</form>
 
         <?php
 class User {
