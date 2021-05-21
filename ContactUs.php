@@ -22,13 +22,13 @@ $(document).ready(function(){
         <div class="main">
           <nav class="topnav" id="myTopnav">
 
-            <a href="index.html">  Home</a>
-            <a href="aboutCorona.html" >About</a>
-            <a href="SSYMPTOMS.html">Symptoms</a>
-            <a href="Prevention.html">Prevention</a>
-            <a href="treatments.html" >Treatments</a>
-            <a href="VVACCINES.html">Vaccines</a>
-            <a href="ContactUs.html"class="active">Contact</a>
+            <a href="index.php">  Home</a>
+            <a href="aboutCorona.php" >About</a>
+            <a href="SSYMPTOMS.php">Symptoms</a>
+            <a href="Prevention.php">Prevention</a>
+            <a href="treatments.php" >Treatments</a>
+            <a href="VVACCINES.php">Vaccines</a>
+            <a href="ContactUs.php"class="active">Contact</a>
     
         </nav>
         </div>

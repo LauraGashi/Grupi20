@@ -25,12 +25,12 @@
         
         <nav class="topnav" id="myTopnav">
 
-            <a href="index.html">Home</a>
-            <a href="aboutCorona.html" >About</a>
-            <a href="SSYMPTOMS.html" class="active">Symptoms</a>
-            <a href="Prevention.html">Prevention</a>
-            <a href="treatments.html" >Treatments</a>
-            <a href="VVACCINES.html">Vaccines</a>
+            <a href="index.php">Home</a>
+            <a href="aboutCorona.php" >About</a>
+            <a href="SSYMPTOMS.php" class="active">Symptoms</a>
+            <a href="Prevention.php">Prevention</a>
+            <a href="treatments.php" >Treatments</a>
+            <a href="VVACCINES.php">Vaccines</a>
             <a href="ContactUs.php">Contact</a>
     
         </nav>
@@ -203,7 +203,7 @@
                     <p><a href="https://www.cdc.gov/cdc-info/index.html">Visit CDC-INFO</a></p>
                     <div class="contact">
                         <p>Call: 0800-232-4636<br>Email: <a href="mailto:CDC-INFO@gmail.com">CDC-INFO@gmail.com</a></p>
-                        <p><a href="registrer.html" target="_blank" onclick="clickCounter()">Register</a></p>
+                        <p><a href="registrer.php" target="_blank" onclick="clickCounter()">Register</a></p>
                         <div id="result"></div>
                     </div>
                 </div>

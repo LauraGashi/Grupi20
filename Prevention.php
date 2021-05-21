@@ -49,12 +49,12 @@
         <div class="header">
             <ul>
                 <div class="nav-area">
-                    <a href="index.html"> Home</a>
-                    <a href="aboutCorona.html">About</a>
+                    <a href="index.php"> Home</a>
+                    <a href="aboutCorona.php">About</a>
                     <a href="SSYMPTOMS.php">Symptoms</a>
-                    <a href="Prevention.html" class="active">Prevention</a>
-                    <a href="treatments.html">Treatments</a>
-                    <a href="VVACCINES.html">Vaccines</a>
+                    <a href="Prevention.php" class="active">Prevention</a>
+                    <a href="treatments.php">Treatments</a>
+                    <a href="VVACCINES.php">Vaccines</a>
                     <a href="ContactUs.php">Contact</a>
                 </div>
             </ul>
