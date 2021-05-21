@@ -142,7 +142,7 @@
                 <p><a href="https://www.cdc.gov/cdc-info/index.html">Visit CDC-INFO</a></p>
                 <div class="contact">
                     <p>Call: 0800-232-4636<br>Email: <a href="mailto:CDC-INFO@gmail.com">CDC-INFO@gmail.com</a></p> 
-                    <p><a href="registrer.html" target="_blank" onclick="clickCounter()">Register</a></p>    
+                    <p><a href="registrer.php" target="_blank" onclick="clickCounter()">Register</a></p>    
                     <div id="result"></div>     
                 </div>
             </div>
