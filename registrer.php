@@ -13,7 +13,7 @@
         <div class="form-control">
           <input type="text" required>
           <!--qekjo required e qet PLEASE FILL OUT THIS FIELD-->
-          <label>First Name</label>
+          <label id="name">First Name</label>
 
           <div class="form-control">
             <input type="text" required>
@@ -22,7 +22,7 @@
 
         <div class="form-control">
           <input type="email" required>
-          <label>Email</label>
+          <label id="email">Email</label>
           <!-- <label>
             <span style="transition-delay: 0ms">E</span>
               <span style="transition-delay: 50ms">m</span>
